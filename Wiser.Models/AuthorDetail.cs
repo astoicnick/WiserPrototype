@@ -8,5 +8,9 @@ namespace Wiser.Models
 {
     public class AuthorDetail
     {
+        public string AuthorName { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public int? Virtue { get; set; }
+        public List<WisdomCreate> Attributions { get; set; }
     }
 }
